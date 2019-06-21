@@ -1,0 +1,6 @@
+module Pods_FlarumApp {
+  umbrella header "Pods-FlarumApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

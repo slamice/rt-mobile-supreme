@@ -14,6 +14,7 @@
 		030735071ED5BA7000975CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030735051ED5BA7000975CD0 /* LaunchScreen.storyboard */; };
 		030735121ED5BA7000975CD0 /* FlarumAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030735111ED5BA7000975CD0 /* FlarumAppTests.swift */; };
 		0307351D1ED5BA7000975CD0 /* FlarumAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307351C1ED5BA7000975CD0 /* FlarumAppUITests.swift */; };
+		1867B9D7A547EFF32F459019 /* libPods-FlarumApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5AD1181394B9CEA5A8BF0A /* libPods-FlarumApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,10 @@
 		030735181ED5BA7000975CD0 /* FlarumAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlarumAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0307351C1ED5BA7000975CD0 /* FlarumAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlarumAppUITests.swift; sourceTree = "<group>"; };
 		0307351E1ED5BA7000975CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B310E4788B799C736AC8BA /* Pods-FlarumApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlarumApp.debug.xcconfig"; path = "Target Support Files/Pods-FlarumApp/Pods-FlarumApp.debug.xcconfig"; sourceTree = "<group>"; };
+		15DBDB6C22BD346F00B2D9A4 /* FlarumApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlarumApp.entitlements; sourceTree = "<group>"; };
+		DC9B2909B583ED616A506338 /* Pods-FlarumApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlarumApp.release.xcconfig"; path = "Target Support Files/Pods-FlarumApp/Pods-FlarumApp.release.xcconfig"; sourceTree = "<group>"; };
+		DD5AD1181394B9CEA5A8BF0A /* libPods-FlarumApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlarumApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1867B9D7A547EFF32F459019 /* libPods-FlarumApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,8 @@
 				030735101ED5BA7000975CD0 /* FlarumAppTests */,
 				0307351B1ED5BA7000975CD0 /* FlarumAppUITests */,
 				030734FA1ED5BA7000975CD0 /* Products */,
+				7C9D75B5F980A8495E04B378 /* Pods */,
+				23D9D34EA9B5A749DBC5D512 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +105,7 @@
 		030734FB1ED5BA7000975CD0 /* FlarumApp */ = {
 			isa = PBXGroup;
 			children = (
+				15DBDB6C22BD346F00B2D9A4 /* FlarumApp.entitlements */,
 				030734FC1ED5BA7000975CD0 /* AppDelegate.swift */,
 				030734FE1ED5BA7000975CD0 /* ViewController.swift */,
 				030735001ED5BA7000975CD0 /* Main.storyboard */,
@@ -125,6 +134,24 @@
 			path = FlarumAppUITests;
 			sourceTree = "<group>";
 		};
+		23D9D34EA9B5A749DBC5D512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5AD1181394B9CEA5A8BF0A /* libPods-FlarumApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C9D75B5F980A8495E04B378 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13B310E4788B799C736AC8BA /* Pods-FlarumApp.debug.xcconfig */,
+				DC9B2909B583ED616A506338 /* Pods-FlarumApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 030735211ED5BA7000975CD0 /* Build configuration list for PBXNativeTarget "FlarumApp" */;
 			buildPhases = (
+				D8FEB806938BA5218FC5E243 /* [CP] Check Pods Manifest.lock */,
 				030734F51ED5BA7000975CD0 /* Sources */,
 				030734F61ED5BA7000975CD0 /* Frameworks */,
 				030734F71ED5BA7000975CD0 /* Resources */,
@@ -195,6 +223,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 4N554GG97N;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					0307350C1ED5BA7000975CD0 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -256,6 +289,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D8FEB806938BA5218FC5E243 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlarumApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		030734F51ED5BA7000975CD0 /* Sources */ = {
@@ -433,8 +491,10 @@
 		};
 		030735221ED5BA7000975CD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B310E4788B799C736AC8BA /* Pods-FlarumApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlarumApp/FlarumApp.entitlements;
 				DEVELOPMENT_TEAM = 4N554GG97N;
 				INFOPLIST_FILE = FlarumApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -446,8 +506,10 @@
 		};
 		030735231ED5BA7000975CD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9B2909B583ED616A506338 /* Pods-FlarumApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlarumApp/FlarumApp.entitlements;
 				DEVELOPMENT_TEAM = 4N554GG97N;
 				INFOPLIST_FILE = FlarumApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
