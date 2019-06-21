@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1145A2ED-6621-4736-A75C-44E84914C2DA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1145A2ED-6621-4736-A75C-44E84914C2DA.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FlarumApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FlarumApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean FlarumApp</string>
+			<key>timeStartedRecording</key>
+			<real>582830900.80843997</real>
+			<key>timeStoppedRecording</key>
+			<real>582830900.94224095</real>
+			<key>title</key>
+			<string>Clean FlarumApp</string>
+			<key>uniqueIdentifier</key>
+			<string>1145A2ED-6621-4736-A75C-44E84914C2DA</string>
+		</dict>
+		<key>1B92DD98-E92B-4854-81A1-2851275142DD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1B92DD98-E92B-4854-81A1-2851275142DD.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FlarumApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FlarumApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FlarumApp</string>
+			<key>timeStartedRecording</key>
+			<real>582830833.57239103</real>
+			<key>timeStoppedRecording</key>
+			<real>582830833.72221196</real>
+			<key>title</key>
+			<string>Build FlarumApp</string>
+			<key>uniqueIdentifier</key>
+			<string>1B92DD98-E92B-4854-81A1-2851275142DD</string>
+		</dict>
+		<key>3B577718-A8BD-4F16-82A6-9D0DCB51FC48</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3B577718-A8BD-4F16-82A6-9D0DCB51FC48.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FlarumApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FlarumApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FlarumApp</string>
+			<key>timeStartedRecording</key>
+			<real>582831071.97999406</real>
+			<key>timeStoppedRecording</key>
+			<real>582831072.23950195</real>
+			<key>title</key>
+			<string>Build FlarumApp</string>
+			<key>uniqueIdentifier</key>
+			<string>3B577718-A8BD-4F16-82A6-9D0DCB51FC48</string>
+		</dict>
+		<key>7D188CFB-EE88-47A2-8075-2A35494F172F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7D188CFB-EE88-47A2-8075-2A35494F172F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FlarumApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FlarumApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean FlarumApp</string>
+			<key>timeStartedRecording</key>
+			<real>582830913.44400299</real>
+			<key>timeStoppedRecording</key>
+			<real>582830913.58710301</real>
+			<key>title</key>
+			<string>Clean FlarumApp</string>
+			<key>uniqueIdentifier</key>
+			<string>7D188CFB-EE88-47A2-8075-2A35494F172F</string>
+		</dict>
+		<key>8294A66E-1572-4195-90B5-4A0FEC15CFF5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8294A66E-1572-4195-90B5-4A0FEC15CFF5.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FlarumApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FlarumApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FlarumApp</string>
+			<key>timeStartedRecording</key>
+			<real>582830697.22395897</real>
+			<key>timeStoppedRecording</key>
+			<real>582830697.34342897</real>
+			<key>title</key>
+			<string>Build FlarumApp</string>
+			<key>uniqueIdentifier</key>
+			<string>8294A66E-1572-4195-90B5-4A0FEC15CFF5</string>
+		</dict>
+		<key>A0649D4B-7B72-408E-830C-F4738B1D2A89</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A0649D4B-7B72-408E-830C-F4738B1D2A89.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FlarumApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FlarumApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FlarumApp</string>
+			<key>timeStartedRecording</key>
+			<real>582830903.14386296</real>
+			<key>timeStoppedRecording</key>
+			<real>582830903.48911297</real>
+			<key>title</key>
+			<string>Build FlarumApp</string>
+			<key>uniqueIdentifier</key>
+			<string>A0649D4B-7B72-408E-830C-F4738B1D2A89</string>
+		</dict>
+		<key>BD0ABBB3-C15A-43AD-92D2-C8B234849FE0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BD0ABBB3-C15A-43AD-92D2-C8B234849FE0.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FlarumApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FlarumApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FlarumApp</string>
+			<key>timeStartedRecording</key>
+			<real>582831118.14313805</real>
+			<key>timeStoppedRecording</key>
+			<real>582831118.25404501</real>
+			<key>title</key>
+			<string>Build FlarumApp</string>
+			<key>uniqueIdentifier</key>
+			<string>BD0ABBB3-C15A-43AD-92D2-C8B234849FE0</string>
+		</dict>
+		<key>C273A7D4-821B-4DE6-82D1-C9FEBF8F08F7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C273A7D4-821B-4DE6-82D1-C9FEBF8F08F7.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FlarumApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FlarumApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FlarumApp</string>
+			<key>timeStartedRecording</key>
+			<real>582831088.82820404</real>
+			<key>timeStoppedRecording</key>
+			<real>582831089.147928</real>
+			<key>title</key>
+			<string>Build FlarumApp</string>
+			<key>uniqueIdentifier</key>
+			<string>C273A7D4-821B-4DE6-82D1-C9FEBF8F08F7</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -89,8 +89,8 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
                                 didReceive response: UNNotificationResponse,
                                 withCompletionHandler completionHandler: @escaping () -> Void) {
         
-        if response.notification.request.identifier == "Local Notification" {
-            print("Handling notifications with the Local Notification Identifier")
+        if response.notification.request.identifier == "Rocketrip Notification" {
+            print("Handling notifications with the Rocketrip Notification Identifier")
         }
         
         completionHandler()
@@ -98,17 +98,17 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     
     func scheduleNotification(notificationType: String) {
         
-        let content = UNMutableNotificationContent() // Содержимое уведомления
+        let content = UNMutableNotificationContent()
         let categoryIdentifire = "Delete Notification Type"
         
         content.title = notificationType
-        content.body = "This is example how to create " + notificationType
+        content.body = "You can buy seven slabs of bacon with your recent trip! "
         content.sound = UNNotificationSound.default
         content.badge = 1
         content.categoryIdentifier = categoryIdentifire
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
-        let identifier = "Local Notification"
+        let identifier = "Rocketrip Notification"
         let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
         
         notificationCenter.add(request) { (error) in

@@ -148,7 +148,6 @@
 				13B310E4788B799C736AC8BA /* Pods-FlarumApp.debug.xcconfig */,
 				DC9B2909B583ED616A506338 /* Pods-FlarumApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
