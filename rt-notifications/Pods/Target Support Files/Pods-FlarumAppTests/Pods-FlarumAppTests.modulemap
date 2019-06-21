@@ -1,0 +1,6 @@
+framework module Pods_FlarumAppTests {
+  umbrella header "Pods-FlarumAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
