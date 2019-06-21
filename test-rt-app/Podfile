@@ -1,3 +1,5 @@
+platform :ios, '10.0'
 target 'FlarumApp' do
-  pod 'PusherSwift', '7.0.0'
+  pod 'SwiftyGif'
 end
+workspace 'FlarumApp'
