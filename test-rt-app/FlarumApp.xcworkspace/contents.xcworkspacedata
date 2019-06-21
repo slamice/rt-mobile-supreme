@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:FlarumApp.xcodeproj">
+      location = "group:/Users/salvatorearchitetto/Desktop/rt-mobile-supreme/test-rt-app/Rocketrip.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

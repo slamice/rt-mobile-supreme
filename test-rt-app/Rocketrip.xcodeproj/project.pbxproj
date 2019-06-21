@@ -216,7 +216,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Chamath Palihawadana";
+				ORGANIZATIONNAME = rocketrip;
 				TargetAttributes = {
 					030734F81ED5BA7000975CD0 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -242,7 +242,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 030734F41ED5BA6F00975CD0 /* Build configuration list for PBXProject "FlarumApp" */;
+			buildConfigurationList = 030734F41ED5BA6F00975CD0 /* Build configuration list for PBXProject "Rocketrip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -579,7 +579,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		030734F41ED5BA6F00975CD0 /* Build configuration list for PBXProject "FlarumApp" */ = {
+		030734F41ED5BA6F00975CD0 /* Build configuration list for PBXProject "Rocketrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0307351F1ED5BA7000975CD0 /* Debug */,
