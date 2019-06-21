@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "ff60cb9ec63ddbf3540fbc327c1edcb6"
+build_time: [1561138318, 196551000]
+inputs:
+  "/Users/salvatorearchitetto/Desktop/rt-mobile-supreme/test-rt-app/FlarumApp/ViewController.swift": !dirty [1561131961, 313504657]
+  "/Users/salvatorearchitetto/Desktop/rt-mobile-supreme/test-rt-app/FlarumApp/AppDelegate.swift": !dirty [1561137747, 683658459]
