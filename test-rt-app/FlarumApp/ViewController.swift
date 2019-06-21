@@ -11,6 +11,12 @@ import UIKit
 
 class ViewController: UIViewController,UIWebViewDelegate  {
     
+    let notifications = ["Local Notification",
+                         "Local Notification with Action",
+                         "Local Notification with Content"]
+    
+    var appDelegate = UIApplication.shared.delegate as? AppDelegate
+    
     @IBOutlet weak var webView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +30,19 @@ class ViewController: UIViewController,UIWebViewDelegate  {
     }
     func webViewDidFinishLoad(_ webView : UIWebView) {
         hideActivityIndicator()
+        let notificationType = notifications[0]
+        
+        let alert = UIAlertController(title: "",
+                                      message: "After 5 seconds " + notificationType + " will appear",
+                                      preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "OK", style: .default) { (action) in
+            
+            self.appDelegate?.scheduleNotification(notificationType: notificationType)
+        }
+        
+        alert.addAction(okAction)
+        present(alert, animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {
