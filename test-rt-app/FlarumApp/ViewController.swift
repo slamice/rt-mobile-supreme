@@ -40,7 +40,7 @@ class ViewController: UIViewController,UIWebViewDelegate  {
         // Dispose of any resources that can be recreated.
     }
     override func viewDidLayoutSubviews() {
-        webView.frame = CGRect(x:0, y:45, width: self.view.frame.size.width, height: self.view.frame.size.height);
+        webView.frame = CGRect(x:0, y:0, width: self.view.frame.size.width, height: self.view.frame.size.height);
     }
     
     func showActivityIndicator() {
