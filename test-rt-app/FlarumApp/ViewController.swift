@@ -55,7 +55,7 @@ class ViewController: UIViewController,UIWebViewDelegate  {
     
     func showActivityIndicator() {
         let activityIndicator = UIActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
-        activityIndicator.backgroundColor = UIColor(red:1.0, green:0.0, blue:0.0, alpha:0.3)
+        activityIndicator.backgroundColor = UIColor(red:237.0, green:89.0, blue:26.0, alpha:0.3)
         activityIndicator.layer.cornerRadius = 6
         activityIndicator.center = view.center
         activityIndicator.hidesWhenStopped = true
