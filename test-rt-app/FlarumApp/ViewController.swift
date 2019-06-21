@@ -31,12 +31,12 @@ class ViewController: UIViewController,UIWebViewDelegate  {
         // Dispose of any resources that can be recreated.
     }
     override func viewDidLayoutSubviews() {
-        webView.frame = CGRect(x:0, y:64, width: self.view.frame.size.width, height: self.view.frame.size.height-64);
+        webView.frame = CGRect(x:0, y:0, width: self.view.frame.size.width, height: self.view.frame.size.height);
     }
     
     func showActivityIndicator() {
         let activityIndicator = UIActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
-        activityIndicator.backgroundColor = UIColor(red:0.16, green:0.17, blue:0.21, alpha:0.3)
+        activityIndicator.backgroundColor = UIColor(red:1.0, green:0.0, blue:0.0, alpha:0.3)
         activityIndicator.layer.cornerRadius = 6
         activityIndicator.center = view.center
         activityIndicator.hidesWhenStopped = true
