@@ -20,14 +20,20 @@ class ViewController: UIViewController,UIWebViewDelegate  {
     @IBOutlet weak var webView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        var database = Database()
+        database.fetchNotifications()
+        
         showActivityIndicator()
         webView.delegate = self
+        
         // Do any additional setup after loading the view, typically from a nib.
         let u2 = URL(string: "https://rocketrip.com");
         let u = URLRequest(url: u2!);
+        
         webView.loadRequest(u);
         webView.scrollView.bounces = false;
     }
+    
     func webViewDidFinishLoad(_ webView : UIWebView) {
         hideActivityIndicator()
         let notificationType = notifications[0]
