@@ -16,6 +16,7 @@
 		0307351D1ED5BA7000975CD0 /* FlarumAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307351C1ED5BA7000975CD0 /* FlarumAppUITests.swift */; };
 		1768B41873F64294F57BC2C0 /* Pods_FlarumAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52DAB2FBB213997B1ABD106 /* Pods_FlarumAppUITests.framework */; };
 		3707009DFF0170A1FC11F456 /* Pods_FlarumAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77E9B0156D3F61EC9FEC9F5 /* Pods_FlarumAppTests.framework */; };
+		98AD7E5722BD9637002B5E91 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AD7E5622BD9637002B5E91 /* Database.swift */; };
 		98F79B0E22BD8FB5003765ED /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F79B0D22BD8FB5003765ED /* Notifications.swift */; };
 		A6735FD51AA26568591920EC /* Pods_FlarumApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4457267B61104D34C7BD3B /* Pods_FlarumApp.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		649843AEAED837917E08B194 /* Pods-FlarumAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlarumAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlarumAppUITests/Pods-FlarumAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A4457267B61104D34C7BD3B /* Pods_FlarumApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlarumApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2598254B03CCC01A25A196 /* Pods-FlarumAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlarumAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FlarumAppTests/Pods-FlarumAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98AD7E5622BD9637002B5E91 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		98F79B0D22BD8FB5003765ED /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		A77E9B0156D3F61EC9FEC9F5 /* Pods_FlarumAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlarumAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DDB49AFCFBF4D379FDA2FB /* Pods-FlarumApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlarumApp.debug.xcconfig"; path = "Target Support Files/Pods-FlarumApp/Pods-FlarumApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,7 +118,6 @@
 		030734FB1ED5BA7000975CD0 /* FlarumApp */ = {
 			isa = PBXGroup;
 			children = (
-				98F79B0F22BD91F3003765ED /* New Group */,
 				030734FC1ED5BA7000975CD0 /* AppDelegate.swift */,
 				030734FE1ED5BA7000975CD0 /* ViewController.swift */,
 				030735001ED5BA7000975CD0 /* Main.storyboard */,
@@ -124,6 +125,7 @@
 				030735051ED5BA7000975CD0 /* LaunchScreen.storyboard */,
 				030735081ED5BA7000975CD0 /* Info.plist */,
 				98F79B0D22BD8FB5003765ED /* Notifications.swift */,
+				98AD7E5622BD9637002B5E91 /* Database.swift */,
 			);
 			path = FlarumApp;
 			sourceTree = "<group>";
@@ -154,13 +156,6 @@
 				E52DAB2FBB213997B1ABD106 /* Pods_FlarumAppUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		98F79B0F22BD91F3003765ED /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		F70F0753BB4D4B2A76C4EDFB /* Pods */ = {
@@ -407,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98AD7E5722BD9637002B5E91 /* Database.swift in Sources */,
 				98F79B0E22BD8FB5003765ED /* Notifications.swift in Sources */,
 				030734FF1ED5BA7000975CD0 /* ViewController.swift in Sources */,
 				030734FD1ED5BA7000975CD0 /* AppDelegate.swift in Sources */,
