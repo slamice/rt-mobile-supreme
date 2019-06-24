@@ -95,13 +95,13 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         completionHandler()
     }
     
-    func scheduleNotification(notificationType: String) {
+    func scheduleNotification(notificationType: String, title: String, body: String) {
         
         let content = UNMutableNotificationContent()
         let categoryIdentifire = "Delete Notification Type"
         
-        content.title = notificationType
-        content.body = "You can buy seven slabs of bacon with your recent trip! "
+        content.title = title
+        content.body = body
         content.sound = UNNotificationSound.default
         content.badge = 1
         content.categoryIdentifier = categoryIdentifire

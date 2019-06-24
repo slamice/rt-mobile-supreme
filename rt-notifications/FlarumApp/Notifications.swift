@@ -25,13 +25,13 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
         }
     }
     
-    func scheduleNotification(notificationType: String) {
+    func scheduleNotification(notificationType: String, title: String, body: String) {
         
         let content = UNMutableNotificationContent() // Содержимое уведомления
         let userActions = "User Actions"
         
-        content.title = notificationType
-        content.body = "This is example how to create " + notificationType
+        content.title = title
+        content.body = body
         content.sound = UNNotificationSound.default
         content.badge = 1
         content.categoryIdentifier = userActions
@@ -78,7 +78,7 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
             print("Default")
         case "Snooze":
             print("Snooze")
-            scheduleNotification(notificationType: "sdfd")
+            scheduleNotification(notificationType: "Dork", title:"", body:"")
         case "Delete":
             print("Delete")
         default:

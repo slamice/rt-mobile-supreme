@@ -17,12 +17,22 @@ class ViewController: UIViewController,UIWebViewDelegate  {
     
     var appDelegate = UIApplication.shared.delegate as? AppDelegate
     
+    @objc func fetchNotifications() {
+        self.appDelegate?.scheduleNotification(notificationType: notifications[0],
+                                               title: "Bon Voyage",
+                                               body: "You were approved for your trip to SFO with 9001 points")
+        //var database = Database()
+        //database.fetchNotifications()
+        // database.deleteNotifications()
+    }
+    
     @IBOutlet weak var webView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        var database = Database()
-        database.fetchNotifications()
-        
+        var timer = Timer()
+
+        timer = Timer.scheduledTimer(timeInterval: 120, target: self, selector: #selector(fetchNotifications), userInfo: nil, repeats: true)
+
         showActivityIndicator()
         webView.delegate = self
         
@@ -33,12 +43,10 @@ class ViewController: UIViewController,UIWebViewDelegate  {
         webView.loadRequest(u);
         webView.scrollView.bounces = false;
     }
+
     
     func webViewDidFinishLoad(_ webView : UIWebView) {
         hideActivityIndicator()
-        let notificationType = notifications[0]
-        self.appDelegate?.scheduleNotification(notificationType: notificationType)
-        
     }
     
     override func didReceiveMemoryWarning() {
